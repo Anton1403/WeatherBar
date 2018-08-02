@@ -1,0 +1,227 @@
+body {
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+h1 {
+    color:#4d007e;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 50px;
+}
+img {
+    width:70px;
+    height: 70px;
+    padding-left: 10px;
+}
+.weather {
+    min-width:1500px;
+    min-height: 250px;
+}
+.first{
+    margin-left: 25px;
+    border: 0px solid black;
+    min-width: 170px;
+    height: 250px;
+    float:left;
+    color:black;
+    transition: 0.5s;
+}
+.today {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+.date {
+    font-size: 18px;
+    color: #878787;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.degrees {
+    font-size: 34px;
+    text-align: center;
+    color:orangered;
+    font-family: 'Varela Round', sans-serif;
+    line-height: 0px;
+    
+}
+.comment {
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 40px;
+}
+.first:hover {
+    box-shadow: 0px 0px 20px orange;
+    background: #E8E8E8;
+    margin-top: -10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.second {
+    margin-left: 15px;
+    border: 0px solid black;
+    min-width: 170px;
+    height: 250px;
+    float: left;
+    color:black;
+    transition: 0.5s;
+}
+.second:hover {
+    box-shadow: 0px 0px 20px cornflowerblue;
+    background: #E8E8E8;
+    margin-top: -10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.second .degrees {
+    color:cornflowerblue;
+}
+.third {
+    float: left;
+    margin-left: 15px;
+    border: 0px solid black;
+    min-width: 170px;
+    height: 250px;
+    color:black;
+    transition: 0.5s;
+}
+.fourth {
+    float: left;
+    margin-left: 15px;
+    border: 0px solid black;
+    min-width: 170px;
+    height: 250px;
+    color:black;
+    transition: 0.5s;
+}
+.fourth .degrees {
+    color:cornflowerblue;
+}
+.third:hover {
+    box-shadow: 0px 0px 20px orange;
+    background: #E8E8E8;
+    margin-top: -10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.fourth:hover {
+    box-shadow: 0px 0px 20px cornflowerblue;
+    background: #E8E8E8;
+    margin-top: -10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.july9 {
+    float: left;
+    margin-left: 15px;
+    border: 0px solid black; 
+    min-width: 170px;
+    height: 250px;
+    color:black;
+    transition: 0.5s;
+}
+.july10 {
+    float: left;
+    margin-left: 15px;
+    border: 0px solid black;
+    min-width: 170px;
+    height: 250px;
+    color:black;
+    transition: 0.5s;
+}
+.july11 {
+    float: left;
+    margin-left: 15px;
+    border: 0px solid black;
+    min-width: 170px;
+    height: 250px;
+    color:black;
+    transition: 0.5s;
+}
+.july12 {
+    float: left;
+    margin-left: 15px;
+    border: 0px solid black;
+    min-width: 170px;
+    height: 250px;
+    color:black;
+    transition: 0.5s;
+}
+.july9 .degrees {
+    color:cornflowerblue;
+}
+.july10 .degrees {
+    color:cornflowerblue;
+}
+.july12 .degrees {
+    color:cornflowerblue;
+}
+.july9:hover {
+    box-shadow: 0px 0px 20px cornflowerblue;
+    background: #E8E8E8;
+    margin-top: -10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.july10:hover {
+    box-shadow: 0px 0px 20px cornflowerblue;
+    background: #E8E8E8;
+    margin-top: -10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.july12:hover {
+    background: #E8E8E8;
+    box-shadow: 0px 0px 20px cornflowerblue;
+    margin-top: -10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.july11:hover {
+    background: #E8E8E8;
+    box-shadow: 0px 0px 20px orange;
+    margin-top: -10px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.line {
+    margin-top: 20px;
+    border-bottom: 2px solid lightgray;
+}
+.third .today,
+.fourth .today {
+    color:red;
+}
+.vk {
+    padding: 10px 15px;
+    border-radius: 10px;
+    width:200px;
+    text-align: center;
+    transition: 0.5s;
+    color:#4d007e;
+    margin: 10px 20px;
+}
+.vk:hover {
+    background: #597da3;
+    color: white;
+    transition: 0.5s;
+}
+a {
+    text-decoration: none;
+}
+.inst {
+    padding: 10px 15px;
+    border-radius: 10px;
+    width:200px;
+    text-align: center;
+    transition: 0.5s;
+    color:#4d007e;
+    margin: 10px 20px;
+}
+.inst:hover {
+    transition: 0.5s;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: white;
+}
